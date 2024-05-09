@@ -48,6 +48,7 @@
         programs. He possesses a robust background in training and supervising staff, fostering
         adherence to organizational policies and industry standards.
       </p>
+      <h2>Work History</h2>
       <p>
         Ivan's journey in the professional landscape began at McDonald's in Tacoma, WA, where he
         served as a Crew Member from September 2013 to June 2016. Here, he honed his skills in
@@ -80,6 +81,7 @@
         development of streamlined processes for organizing materials and his collaboration with
         project managers to ensure adherence to work plans and safety regulations.
       </p>
+      <h2>Volunteering</h2>
       <p>
         Beyond his professional pursuits, Ivan remains actively engaged in his community through
         volunteer work at the Slavic Christian Center in Tacoma, WA, where he serves as the Bible
@@ -87,6 +89,7 @@
         serving others underscores his passion for making a positive impact both in his professional
         endeavors and personal life.
       </p>
+      <h2>Skills</h2>
       <p>
         Academically, Ivan holds an Associate's Degree in Engineering from Tacoma Community College,
         completed in June 2016. Building on this foundation, he pursued further education through
@@ -97,27 +100,20 @@
       <footer>
         <p>
           <small
-            >&copy; 2021-<span id="this-year"></span> by Ivan Matev, All Rights Reserved
+            >&copy; 2021 - <span id="this-year"></span> by Ivan Matev, All Rights Reserved
           </small>
         </p>
       </footer>
     </main>
 
-    <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+    <!-- Toggle between adding and removing the "responsive" class to 
+      topnav when the user clicks on the icon -->
     <script>
-      //https://tinyurl.com/dynamic-html-checker
-      document
-        .getElementById("html-checker")
-        .setAttribute("href", "https://validator.w3.org/nu/?doc=" + location.href);
-
-      document
-        .getElementById("css-checker")
-        .setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
-
       //set current year in span with id of this-year
       let d = new Date();
       let thisYear = d.getFullYear();
       document.getElementById("this-year").innerHTML = thisYear;
+      //console.log(thisYear);
 
       //manages mobile nav
       function myFunction() {
